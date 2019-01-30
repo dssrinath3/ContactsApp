@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="dot_margin_right">10dp</dimen>
+    <dimen name="msg_no_contact">26sp</dimen>
+    <dimen name="margin_top_no_contact">120dp</dimen>
+    <dimen name="lbl_new_contact_title">20sp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="input_new_contact">20sp</dimen>
+    <dimen name="dot_height">30dp</dimen>
+    <dimen name="dot_text_size">40sp</dimen>
+    <dimen name="timestamp">14sp</dimen>
+    <dimen name="contact_list_text">18sp</dimen>
+
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_huge">32dp</dimen>
+    <dimen name="spacing_extra_huge">64dp</dimen>
+
+    <dimen name="letter_xsmall">12sp</dimen>
+    <dimen name="letter_small">14sp</dimen>
+    <dimen name="letter_medium">16sp</dimen>
+    <dimen name="letter_large">18sp</dimen>
+</resources>

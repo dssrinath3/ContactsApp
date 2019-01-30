@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ContactsApp</string>
+
+    <string name="activity_title_home">Contacts</string>
+    <string name="msg_no_contact">No Contacts found!</string>
+    <string name="lbl_new_contact_title">New Contact</string>
+    <string name="lbl_edit_contact_title">Update Contact</string>
+    <string name="hint_enter_contact">Enter your Contact!</string>
+    <string name="update">update</string>
+    <string name="save">save</string>
+    <string name="dialog_title_enter_contact">Enter Contact!</string>
+    <string name="dialog_title_enter_contact_phone">Enter Contact Phoneno!</string>
+    <string name="dialog_title_enter_contact_email">Enter Contact Email!</string>
+    <string name="dialog_title_enter_contact_address">Enter Contact Address!</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="dialog_title_choose">Choose option</string>
+    <string name="action_about">About</string>
+    <string name="activity_title_about">About</string>
+    <string name="toast_edit_actions">Long press on the row to Edit or Delete the Contact.</string>
+
+
+</resources>

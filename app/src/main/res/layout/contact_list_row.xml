@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingTop="@dimen/dimen_5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:padding="@dimen/spacing_small">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/contact_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            tools:src="@drawable/ic_action_contact"/>
+
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/contact_image"
+            android:layout_marginLeft="@dimen/spacing_large"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:layout_toRightOf="@+id/contact_image"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="mr gary allen"/>
+
+        <TextView
+            android:id="@+id/contact_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/contact_name"
+            android:layout_below="@+id/contact_name"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="14sp"
+            tools:text="0729-256-147"/>
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contact_phone"
+            android:layout_alignLeft="@id/contact_phone"
+            android:textColor="@color/timestamp"
+            android:gravity="end"
+            android:textSize="@dimen/timestamp"
+            android:text=""/>
+
+    </RelativeLayout>
+</RelativeLayout>
+
